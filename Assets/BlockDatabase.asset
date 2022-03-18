@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450b538d71c8850469d4eef671edeef6, type: 3}
+  m_Name: BlockDatabase
+  m_EditorClassIdentifier: 
+  officialBlocks:
+  - UISprite: {fileID: 21300000, guid: 93b3656f05858bf41b21238441f678e8, type: 3}
+    ID: 0
+    Name: Air
+    Description: I have no idea how you obtained this.
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 0}
+    GenerationData:
+      MinimumDepth: 0
+      MaximumDepth: 1024
+      PerlinSpeed: 0.026
+      PerlinLevel: 0.468
+      ZonePerlinSpeed: 0.058
+      ZonePerlinLevel: 0.43
+      MapPerlinSpeed: 0.153
+      MapPerlinLevel: 0.403
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 1
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
+  - UISprite: {fileID: 21300000, guid: 0557a59ca2c1dff4ea43b38c2b549044, type: 3}
+    ID: 9999
+    Name: Test
+    Description: I have no idea what this is
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 2800000, guid: 10e5ee137e361b740b9ca690f980a99d, type: 3}
+    GenerationData:
+      MinimumDepth: 0
+      MaximumDepth: 0
+      PerlinSpeed: 0
+      PerlinLevel: 0
+      ZonePerlinSpeed: 0
+      ZonePerlinLevel: 0
+      MapPerlinSpeed: 0
+      MapPerlinLevel: 0
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 0
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
+  - UISprite: {fileID: 21300000, guid: 6f9e1e7f286d07c4d8cb7d4504269613, type: 3}
+    ID: 1
+    Name: Dirt
+    Description: Dirty dirt
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 2800000, guid: 45d2d743c32cef74c922df57fe40ae59, type: 3}
+    GenerationData:
+      MinimumDepth: 0
+      MaximumDepth: 0
+      PerlinSpeed: 0
+      PerlinLevel: 0
+      ZonePerlinSpeed: 0
+      ZonePerlinLevel: 0
+      MapPerlinSpeed: 0
+      MapPerlinLevel: 0
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 0
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
+  - UISprite: {fileID: 21300000, guid: aa70b4370effade45a3d9f009c0c3875, type: 3}
+    ID: 2
+    Name: Stone
+    Description: Stoners
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 2800000, guid: 5787ace7bc3eba44196545bac2436e27, type: 3}
+    GenerationData:
+      MinimumDepth: 6
+      MaximumDepth: 1024
+      PerlinSpeed: 0.06124117
+      PerlinLevel: 0.5982249
+      ZonePerlinSpeed: 0
+      ZonePerlinLevel: 0
+      MapPerlinSpeed: 0
+      MapPerlinLevel: 0
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 0
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
+  - UISprite: {fileID: 21300000, guid: 1d9f38b6fafbe4344846f7a4e1620cdc, type: 3}
+    ID: 3
+    Name: Coal
+    Description: Fossil fuel
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 2800000, guid: a871c52c08ee72d4cb09f697a9bbd83d, type: 3}
+    GenerationData:
+      MinimumDepth: 40
+      MaximumDepth: 1024
+      PerlinSpeed: 0.09032067
+      PerlinLevel: 0.5314148
+      ZonePerlinSpeed: 0.08449973
+      ZonePerlinLevel: 0.610999
+      MapPerlinSpeed: 0
+      MapPerlinLevel: 0
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 0
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
+  - UISprite: {fileID: 21300000, guid: fa7e4347a9118c04180f4b53cc8e895b, type: 3}
+    ID: 4
+    Name: Copper
+    Description: I have no idea what this is
+    Rarity: 0
+    MaxStackSize: 999
+    Consumable: 1
+    UseSoundID: 0
+    AutoReuse: 1
+    UseAnimationLength: 0.1
+    UseTime: 0.1
+    UseStyle: 0
+    Buff: 0
+    BuffTime: 3
+    Tile: {fileID: 0}
+    TilesetTexture: {fileID: 2800000, guid: 2e0ef079f8fb39f4a85a8f34c2c80a7a, type: 3}
+    GenerationData:
+      MinimumDepth: 23
+      MaximumDepth: 1024
+      PerlinSpeed: 0.08006101
+      PerlinLevel: 0.5583185
+      ZonePerlinSpeed: 0.04549976
+      ZonePerlinLevel: 0.5849989
+      MapPerlinSpeed: 0
+      MapPerlinLevel: 0
+    CanBePlacedOnForeground: 1
+    CanBePlacedOnMidground: 0
+    CanBePlacedOnBackground: 1
+    RequiresSupportFromBelow: 0
+    TilesWidth: 1
+    TilesHeight: 1
